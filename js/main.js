@@ -12,7 +12,7 @@ function changeImage() {
 
 // cat facts 
 
-function fetchCatFact() {
+function changeFact() {
     fetch("https://cat-fact.herokuapp.com/facts/random")
         .then(response => {
             return response.json();
