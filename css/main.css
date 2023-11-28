@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@400;500;700&display=swap');
+
+/* main */
+
+header {
+    background-color: rgb(117, 173, 118);
+    padding: 0.1%;
+    font-family: 'DM Serif Display', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(240, 255, 240);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 16.5px;
+}
+
+.col1{
+    border: solid 6px rgb(117, 173, 118);
+    padding: 2rem;
+    width: 35rem;
+    background-color: rgb(168, 213, 168);
+}
+
+footer {
+    margin-top: 14rem;
+    background-color: rgb(117, 173, 118);
+    padding: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+/* cat image/facts */
+
+img {
+    width: 30rem;
+    max-height: fit-content;
+}
+
+.col2 {
+    display: block;
+}
+
+.imgbtn, .fctbtn {
+    font-weight: bold;
+    display: inline;
+    margin-top: 2rem;
+    font-size: 16px;
+    background-color: rgb(117, 173, 118);
+    padding: 0.4rem;
+    border: solid 2px rgb(81, 122, 82);
+}
+
+a {
+    font-weight: bold;
+    color: rgb(0, 85, 255);
+}
+
+#catImage, #catFact {
+    border: solid 5px rgb(94, 142, 95);
+    background-color: rgb(240, 255, 240);
+    padding: 1rem;
+}
+
+/* media query*/
+
+@media screen and (max-width: 1350px){
+
+    .row {
+        margin: 3rem;
+        display: block;
+    }
+
+    img {
+        width: 25.5rem;
+        max-height: fit-content;
+    }
+
+    .facts {
+        margin-top: 2rem;
+    }
+
+    .col1 {
+        width: auto;
+    }
+ 
+}

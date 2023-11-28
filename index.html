@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 7: Fun with APIs</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    
+    <header>
+        <h1>Annabel's Lab 7 Page</h1>
+    </header>
+
+    <div class="row">
+        <section class="col1 images">
+            <h2>Images of Cats</h2>
+            <p>Explore the various amounts of cat images submitted through cataas.com by pressing the button below! Want to submit your own cat images? <a href="https://cataas.com/upload">Click Here!</a></p>
+
+            <div class="container1">
+                <img class="col2" id="catImage" src="" alt="A cat image will appear here!"> 
+                <button class="col2 imgbtn" onclick="changeImage()">Change Cat Image</button>
+            </div>
+        </section>
+        
+        <section class="col1 facts">
+            <h2>Facts about Cats</h2>
+            <p>Want to know some random facts about cats? Click the button below to learn a new fact each time you click!</p>
+
+            <div class="container2">
+                <p id="catFact">A cat fact will appear here!</p>
+                <button class="fctbtn" onclick="fetchCatFact()">Fetch Cat Fact</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>"This fictitious website was created as an academic exercise for the Diablo Valley College course, ARTDM-174: Web and Mobile Design With Java Script. In no way should this content be considered or used as a source of factual public information."</footer>
+    
+</body>
+</html>
